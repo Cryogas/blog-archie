@@ -1,0 +1,29 @@
+baseURL = "https://example.com"
+languageCode = "en-us"
+title = "H9"
+theme="archie"
+copyright = "© H9"
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+[params]
+	mode="dark"
+	useCDN=false
+	
+
+
+
+[[menu.main]]
+name = "All posts"
+url = "/content"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
