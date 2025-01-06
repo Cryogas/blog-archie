@@ -1,8 +1,13 @@
 +++
-title = "Wani-CTF 2024 Writeup"
-date = 2024-06-24T00:00:00Z
+title = "Apa Writeup"
+date = '{{ .Date }}'
 draft = false
-description = "Writeup for Wani-CTF 2024"
+description = ""
 tags = ["CTF", "Cybersecurity", "Writeup"]
+
 +++
 
+{{< figure src="/content/honest.jpg" title="It's honest work" >}}
+
+{{< line_break >}}
+{{< figure src="/content/" title="" >}}

@@ -2,3 +2,6 @@
 	path = h9/public
 	url = https://github.com/Cryogas/Cryogas.github.io.git
 	branch = main
+[submodule "h9/themes/hugo-book"]
+	path = h9/themes/hugo-book
+	url = https://github.com/alex-shpak/hugo-book

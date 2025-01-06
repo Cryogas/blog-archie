@@ -6,15 +6,17 @@ description = "Writeup for Wani-CTF 2024"
 tags = ["Writeup"]
 +++
 
-This is my writeup for Wani CTF 
+This is my writeup for Wani CTF, an event organized by Osaka University CTF Club, Wani Hackase (Rank 304th)
+
 
 # Forensics
 
-### Surveillance of sus 
+## Surveillance of sus 
 
 A binary file is given, and after some investigation, it has a RDP8BMP Header.
 
 ![Image](/content/wani/hex.png)
+<figcaption>This is the capti for the image.</figcaption>
 
 To get the BMP images, I have referred to this [article](https://medium.com/@yashkumarnavadiya/htb-no-place-to-hide-easy-forensics-challenge-b025c864607a) and use a Python Script (bmc-tools).
 
@@ -26,7 +28,7 @@ Flag : FLAG{RDP_is_useful_yipeee}
 
 ---
 
-### Tiny USB
+## Tiny USB
 
 A disk image file is given. 
 
@@ -38,7 +40,7 @@ Flag: FLAG{hey_i_just_bought_a_usb}
 
 ---
 
-### Tiny-10px
+## Tiny-10px
 
 A small image is given.
 
@@ -46,7 +48,7 @@ A small image is given.
 
 Based on my instincts, this could be one of those image steganography where the author resized the image of a large image. 
 
-So I followed the instructions of this [article]https://cyberhacktics.com/hiding-information-by-changing-an-images-height/) to recover the image by changing the hex values of height and width (multiple times).
+So I followed the instructions of this [article](https://cyberhacktics.com/hiding-information-by-changing-an-images-height/) to recover the image by changing the hex values of height and width (multiple times).
 
 ![Image](/content/wani/hex-small.png)
 
@@ -60,6 +62,10 @@ Flag: FLAG{b1g_en0ugh}
 ---
 
 # Conclusion
+
+This is my 6th CTF event participation, and I am happy that I can solve some easy to medium level challenges now! 
+
+Thank you for reading.
 
 
 

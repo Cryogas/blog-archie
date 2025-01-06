@@ -6,6 +6,7 @@ description = 'Awawa'
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
+tags = ["Writeup"]
 
 [params]
     author ="h9"
@@ -14,7 +15,6 @@ pygmentscodefencesguesssyntax = true
 
 For this CTF, I only solved one question by myself, so here is the writeup for awa-jelly (reverse engineering)
 
-> Hello
 
 ![Image](/content/vsctf/image.png)
 

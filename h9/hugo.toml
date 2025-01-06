@@ -1,29 +1,51 @@
 baseURL = "https://cryogas.github.io/"
 languageCode = "en-us"
-title = "H9"
-theme="archie"
-copyright = "© H9"
+title = "nem4ros"
+theme="hugo-book"
+copyright = "© nem4ros"
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
+tableOfContents= true
+
+
+disablePathToLower = true
+enableGitInfo = true
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 5
+	ordered =false
+
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
 [params]
+  BookFavicon = "content/content/Enchanted_Book.gif"
+  BookTheme = 'dark'
+  BookDateFormat = 'Jan 2, 2006'
+  BookToC = true
 	mode="dark"
 	useCDN=false
-	
 
+
+BookSection = 'content'
 
 
 [[menu.main]]
-name = "All posts"
-url = "/content"
-weight = 1
-
-[[menu.main]]
-name = "About"
-url = "/about"
-weight = 3
-
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 4
+ name = "Home"
+ url = "/"
+ weight = 1
+ 
+# [[menu.main]]
+# name = "About"
+# url = "/about"
+# weight = 3
+# 
+# [[menu.main]]
+# name = "Tags"
+# url = "/tags"
+# weight = 4
